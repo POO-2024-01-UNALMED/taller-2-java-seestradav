@@ -8,13 +8,7 @@ public class Auto{
 	int registro;
 	static int cantidadcreados;
 	int cantidadAsientos(Asiento[] asientos){
-		int n;
-		for (int i=0;i<asientos.length; i++){
-			p=(asientos[i] instanceof Asiento);
-			if (p==true) {
-			n++;}
-		return n;
-	}
+		return asientos.length;
 	}
 	String verificarIntegridad(int registro) {
 		if (registro==Asiento.registro && registro==Motor.registro)
