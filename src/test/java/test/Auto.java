@@ -11,7 +11,7 @@ public class Auto {
 	//int cantidadAsientos() {
 		//int = 0;
 		//for(Asiento a: this.asientos) {
-			i
+			//i
 		//}
 	}
 }
