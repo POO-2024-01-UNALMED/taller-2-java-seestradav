@@ -14,7 +14,7 @@ void asignarTipo(String tipo) {
 			motor.tipo==tipo;
 	}
 	else {
-		motor.tipo==null;
+		motor.tipo== null;
 	}
 }
 }
