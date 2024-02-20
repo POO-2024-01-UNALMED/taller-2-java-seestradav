@@ -3,7 +3,7 @@ public class Asientos {
 String color;
 int precio;
 int registro;
-void cambiarcolor (color) {	
+void cambiarcolor (color){	
 string[] lista={"rojo","amarillo","verde","blanco","negro"};
 for (int i=0;i<lista.length; i++){
 	if (lista[i]==color)
