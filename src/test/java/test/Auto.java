@@ -7,7 +7,7 @@ public class Auto{
 	Motor motor;
 	int registro;
 	static int cantidadcreados;
-	int cantidadAsientos(Asiento[] Auto.asientos) {
+	int cantidadAsientos(Asiento[] asientos) {
 		int n;
 		for (int i=0;i<asientos.length;i++) {
 		if (asientos[i] instanceof Asiento)
