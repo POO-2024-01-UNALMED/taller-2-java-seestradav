@@ -19,6 +19,6 @@ public class Auto {
 	}
 	
 	void verificarIntegridad() {
-		x = 0
+		int x = 0;
 	}
 }
