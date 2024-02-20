@@ -7,19 +7,19 @@ public class Asiento {
 	
 	void cambiarColor(String color) {
 		if (color == "rojo") {
-			this.color = color
+			this.color = color;
 		}
 		if (color == "verde") {
-			this.color = color
+			this.color = color;
 		}
 		if (color == "amarillo") {
-			this.color = color
+			this.color = color;
 		}
 		if (color == "negro") {
-			this.color = color
+			this.color = color;
 		}
 		if (color == "blanco") {
-			this.color = color
+			this.color = color;
 		}
 	}
 
