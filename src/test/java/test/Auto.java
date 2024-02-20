@@ -19,6 +19,6 @@ public class Auto {
 	}
 	
 	String verificarIntegridad() {
-		return "Auto original"
+		return "Auto original";
 	}
 }
