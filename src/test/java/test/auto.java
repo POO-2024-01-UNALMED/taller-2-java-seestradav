@@ -8,9 +8,9 @@ motor motor;
 int registro;
 static int cantidadcreados;
 int cantidadAsientos(asientos[] asientos){
-	for (int i=0;<asientos.length; i++){
+	for (int i=0;i<asientos.length; i++){
 		if (asientos[i] instanceof Asientos)
-		cantidadAsientos++;}	
+		cantidadAsientos++}	
 }
 String verificarIntegridad(int registro) {
 	if (registro==Asientos.registro && registro==motor.registro)

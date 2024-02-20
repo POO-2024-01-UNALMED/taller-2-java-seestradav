@@ -12,6 +12,6 @@ void asignarTipo(String tipo) {
 		motor.tipo= null;
 }
 void cambiarRegistro(int registro) {
-	motor.registro=registro
+	motor.registro=registro;
 }
 }
