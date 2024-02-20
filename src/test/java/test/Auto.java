@@ -9,7 +9,7 @@ public class Auto {
 	int registro;
 	
 	int cantidadAsientos() {
-		int n;
+		int n = 0;
 		for(Asiento a: this.asientos) {
 			if (a instanceof Asiento) {
 				++n;
