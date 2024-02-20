@@ -7,9 +7,13 @@ public class Auto{
 	Motor motor;
 	int registro;
 	static int cantidadcreados;
-	int cantidadAsientos(Asiento[] asientos){
-		return asientos.length;
-	}
+	int cantidadAsientos(strings[] asientos){
+		int n;
+		for (int i=0;i<asientos.length; i++){
+			n++;
+		}
+		return n;
+		}
 	String verificarIntegridad(int registro) {
 		if (registro==Asiento.registro && registro==Motor.registro)
 			System.out.println("Auto original");	
