@@ -8,7 +8,7 @@ public class Auto{
 	int registro;
 	static int cantidadcreados;
 	int cantidadAsientos(Asiento[] asientos){
-		n=int 0;
+		int n;
 		for (int i=0;i<asientos.length; i++){
 			if (asientos[i] instanceof Asiento)
 			n++;}
