@@ -6,15 +6,12 @@ int registro;
 void cambiarRegistro(int registro) {
 	motor.registro==registro;
 }
-void asignarTipo(String tipo) {
-	if tipo=="gasolina"{
+void asignarTipo(String tipo) 
+	if (tipo=="gasolina")
 			motor.tipo==tipo;
-	}
-	else if tipo=="electrico"{
+	else if (tipo=="electrico)
 			motor.tipo==tipo;
-	}
-	else {
+	else 
 		motor.tipo== null;
-	}
 }
 }
