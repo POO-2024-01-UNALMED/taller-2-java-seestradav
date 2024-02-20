@@ -15,6 +15,10 @@ public class Auto {
 				++n;
 			}
 		}
-		return n
+		return n;
+	}
+	
+	void verificarIntegridad() {
+		x = 0
 	}
 }
