@@ -18,7 +18,7 @@ public class Auto {
 		return n;
 	}
 	
-	void verificarIntegridad() {
-		int x = 0;
+	String verificarIntegridad() {
+		return "Auto original"
 	}
 }
