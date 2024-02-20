@@ -8,9 +8,13 @@ public class Auto {
 	Motor motor;
 	int registro;
 	
-	//int cantidadAsientos() {
-		//int = 0;
-		//for(Asiento a: this.asientos) {
-			//i
-		//}
+	int cantidadAsientos() {
+		int n;
+		for(Asiento a: this.asientos) {
+			if (a instanceof Asiento) {
+				++n;
+			}
+		}
+		return n
+	}
 }
