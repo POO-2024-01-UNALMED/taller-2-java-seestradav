@@ -8,17 +8,24 @@ public class Auto{
 	int registro;
 	static int cantidadcreados;
 	int cantidadAsientos() {
-		int n;
-		for (int i=0;i<asientos.length;i++) {
-		if (asientos[i] instanceof Asiento)
-			n++;
-		}
-		return n; 
-	}
+		  int n = 0;
+	        for (Asiento asiento : asientos) {
+	            if (asiento instanceof Asiento) {
+	                n++;
+	            }
+	        }
+	        return n;
+	    }
 	String verificarIntegridad(int registro) {
-		if (registro==Asiento.registro && registro==Motor.registro) {
-			return "Auto original";	 
-		}
-		return "las piezas no son originales";
-	}
+		for (Asiento asiento : asientos) {
+            if (asiento instanceof Asiento) {
+                if (registro.equals(motor.getRegistro()) && registro.equals(asiento.getRegistro())) {
+                    return "Auto original";
+                } else {
+                    return "Las piezas no son originales";
+                }
+            }
+        }
+        return "No se encontraron asientos para verificar la integridad";
+    }
 }
