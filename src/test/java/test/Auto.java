@@ -7,7 +7,7 @@ public class Auto{
 	Motor motor;
 	int registro;
 	static int cantidadcreados;
-	int cantidadAsientos(strings[] asientos){
+	int cantidadAsientos(Asiento[]){
 		int n;
 		for (int i=0;i<asientos.length; i++){
 			n++;
