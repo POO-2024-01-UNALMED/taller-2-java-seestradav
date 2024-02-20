@@ -1,6 +1,6 @@
 package test;
 public class Auto {
-	Static int cantidadCreados;
+	static int cantidadCreados;
 	String modelo;
 	int precio;
 	Asiento[]asientos;
