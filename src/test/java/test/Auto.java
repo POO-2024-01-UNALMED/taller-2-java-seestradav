@@ -19,6 +19,6 @@ public class Auto {
 	}
 	
 	String verificarIntegridad() {
-		return "Las piezas no son originales"
+		return "Auto original";
 	}
 }
