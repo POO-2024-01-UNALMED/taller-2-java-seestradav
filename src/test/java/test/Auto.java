@@ -13,5 +13,4 @@ public class Auto {
 		//for(Asiento a: this.asientos) {
 			//i
 		//}
-	}
 }
