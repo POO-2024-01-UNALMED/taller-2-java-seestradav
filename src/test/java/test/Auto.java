@@ -15,6 +15,7 @@ public class Auto{
 			n++;}
 		return n;
 	}
+	}
 	String verificarIntegridad(int registro) {
 		if (registro==Asiento.registro && registro==Motor.registro)
 			System.out.println("Auto original");	
