@@ -6,13 +6,13 @@ String tipo;
 int registro;
 void asignarTipo(String tipo) {
 	if(tipo=="gasolina") 
-			motor.tipo=tipo;
+			Motor.tipo=tipo;
 	else if(tipo=="electrico")
-			motor.tipo=tipo;
+			Motor.tipo=tipo;
 	else 
-		motor.tipo= null;
+		Motor.tipo= null;
 }
 void cambiarRegistro(int registro) {
-	motor.registro=registro;
+	Motor.registro=registro;
 }
 }
