@@ -7,11 +7,11 @@ public class Auto{
 	Motor motor;
 	int registro;
 	static int cantidadcreados;
-	int cantidadAsientos(Asiento[]){
+	int cantidadAsientos(Asiento[] asientos){
 		int n;
 		for (int i=0;i<asientos.length; i++){
-			n++;
-		}
+			if (asientos[i] instanceof Asiento[] )
+				n++;}
 		return n;
 		}
 	String verificarIntegridad(int registro) {
