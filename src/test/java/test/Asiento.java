@@ -6,8 +6,9 @@ public class Asiento {
 	void cambiarColor (String color){	
 	string[] lista={"rojo","amarillo","verde","blanco","negro"};
 	for (int i=0;i<lista.length; i++){
-		if (lista[i]==color)
-		Asientos.color=color;
-		break;}
+		if (lista[i]==color) {
+			this.color=color;
+		}
+	}
 }
 }
