@@ -12,7 +12,7 @@ int cantidadAsientos(asientos[] asientos){
 	for (int i=0;i<asientos.length; i++){
 		if (asientos[i] instanceof Asientos)
 		n++;}
-	return n
+	return n;
 }
 String verificarIntegridad(int registro) {
 	if (registro==Asientos.registro && registro==motor.registro)
