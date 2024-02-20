@@ -1,5 +1,5 @@
 package test;
-public class Auto {
+public class Auto{
 	String modelo;
 	int precio;
 	Asiento[] asientos;
@@ -7,7 +7,7 @@ public class Auto {
 	Motor motor;
 	int registro;
 	static int cantidadcreados;
-	int cantidadAsientos(Asiento[] asientos){
+	cantidadAsientos(Asiento[] asientos){
 		n=0;
 		for (int i=0;i<asientos.length; i++){
 			if (asientos[i] instanceof Asiento)
