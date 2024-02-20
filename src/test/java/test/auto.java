@@ -7,7 +7,7 @@ String marca;
 motor motor;
 int registro;
 static int cantidadcreados;
-int cantidadAsientos(asientos[] asientos){
+int cantidadAsientos(Asientos[] asientos){
 	n=0;
 	for (int i=0;i<asientos.length; i++){
 		if (asientos[i] instanceof Asientos)
